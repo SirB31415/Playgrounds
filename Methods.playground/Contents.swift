@@ -16,3 +16,16 @@ public func aBitLessSimple(name: String) -> Void
 aBitLessSimple(name: "slim shady")
 let words = "Marshall Mathers"
 aBitLessSimple(name: words)
+
+public func namingExample(outerName innerName: String) -> Void
+{
+    print("The inner name is: \(innerName)")
+}
+namingExample(outerName: "Cody")
+
+public func counting() -> Int
+{
+    return 42
+}
+print("I am not \(counting() years old")
+
