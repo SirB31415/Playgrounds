@@ -47,4 +47,3 @@ while (test < counting())
 
 print ("yay!")
 
-
